@@ -29,3 +29,6 @@ li{
 .navLinks:hover{
   color: var(--primary-color-shade);
 }
+.active{
+  color: #FF00F7;
+}

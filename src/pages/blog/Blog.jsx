@@ -1,10 +1,11 @@
 import React from 'react'
+import NavBar from '../../components/navbar/NavBar'
 import styles from './Blog.module.css'
 
 const Blog = () => {
   return (
-    <div>
-      <h1> Welcome to Blog Page </h1>
+    <div className={styles.main}>
+      <NavBar />
     </div>
   )
 }

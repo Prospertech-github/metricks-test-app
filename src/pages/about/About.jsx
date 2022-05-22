@@ -1,12 +1,11 @@
 import React from 'react'
+import NavBar from '../../components/navbar/NavBar'
 import styles from './About.module.css'
 
 const About = () => {
   return (
-    <div>
-      <h1>
-        Welcome to About Page
-      </h1>
+    <div className={styles.main}>
+      <NavBar />
     </div>
   )
 }

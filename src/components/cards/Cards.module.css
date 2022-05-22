@@ -68,3 +68,26 @@
   font-size: 1.4rem;
   color: #FF00F7;
 }
+
+.timeCard{
+  background-color: var(--white-color);
+  color: var(--black-color);
+  width: 9rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+.digits, .value{
+  text-align: center;
+}
+.digits{
+  font-size: 4rem;
+  font-weight: 600;
+}
+.value{
+  text-transform: capitalize;
+  font-size: 1.4rem;
+  font-weight: 300;
+}

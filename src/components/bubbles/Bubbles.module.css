@@ -1,0 +1,26 @@
+.circle{
+  position: absolute;
+  border-radius: 50%;
+}
+.circle.primary{
+  background: linear-gradient(177deg, #7F1E7B, #19073B);
+  top: 6rem;
+  left: 20rem;
+  width:  10rem;
+  height: 10rem;
+
+}
+.circle.blue{
+  top: 20rem;
+  right: 25rem;
+  width: 8rem;
+  height: 8rem;
+  background: linear-gradient(177deg, #213F72, #19073B);
+}
+.circle.orange{
+  top: 63rem;
+  left: 30rem;
+  width: 12rem;
+  height: 12rem;
+  background: linear-gradient(177deg, #7F4129, #1C0C28);
+}
