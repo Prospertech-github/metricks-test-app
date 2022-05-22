@@ -1,0 +1,31 @@
+nav{
+  height: 8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 6rem;
+  background: transparent;
+}
+.logo{
+  color: #fafafa;
+  font-size: 2.5rem;
+}
+.navigationContainer{
+  display: flex;
+}
+.navigations{
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+}
+li{
+  display: inline-block;
+}
+.navLinks{
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  color: var(--white-color);
+}
+.navLinks:hover{
+  color: var(--primary-color-shade);
+}

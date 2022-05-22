@@ -3,7 +3,11 @@ import styles from './About.module.css'
 
 const About = () => {
   return (
-    <div>About</div>
+    <div>
+      <h1>
+        Welcome to About Page
+      </h1>
+    </div>
   )
 }
 

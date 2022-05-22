@@ -3,7 +3,9 @@ import styles from './Blog.module.css'
 
 const Blog = () => {
   return (
-    <div>Blog</div>
+    <div>
+      <h1> Welcome to Blog Page </h1>
+    </div>
   )
 }
 
